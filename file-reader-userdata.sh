@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Redirect all output to /var/log/userdata.log
+exec > /var/log/userdata.log 2>&1
+
 # Update the instance
 sudo yum update -y
 
