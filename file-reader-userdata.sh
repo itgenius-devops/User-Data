@@ -34,6 +34,29 @@ echo "ECS: Empower your applications with seamless container management. With Am
 
 echo "R53: Route your traffic effortlessly. Amazon Route 53 connects user requests to infrastructure running in AWS and beyond." > itgenius_folder/r53.txt
 
+echo "ECR: Efficiently manage and deploy container images. Amazon ECR is a fully managed container registry that stores, manages, and deploys Docker container images securely." > itgenius_folder/ecr.txt
+
+echo "S3: Secure and scalable object storage. Amazon S3 provides reliable data storage with data protection, availability, and access management capabilities." > itgenius_folder/s3.txt
+
+echo "EFS: Scalable file storage for EC2. Amazon EFS offers simple, scalable, elastic file storage for Linux-based workloads." > itgenius_folder/efs.txt
+
+echo "EBS: Persistent block storage for EC2. Amazon EBS provides high-performance block storage that is easy to scale and manage." > itgenius_folder/ebs.txt
+
+echo "Lambda: Run code without provisioning servers. AWS Lambda executes your code in response to events, enabling serverless computing." > itgenius_folder/lambda.txt
+
+echo "Secrets Manager: Securely store sensitive information. AWS Secrets Manager helps you protect access to your applications, services, and IT resources without hardcoding credentials." > itgenius_folder/secretsmanager.txt
+
+echo "Certificate Manager: Manage SSL/TLS certificates. AWS Certificate Manager makes it easy to provision, manage, and deploy SSL/TLS certificates for use with AWS services." > itgenius_folder/certificatemanager.txt
+
+echo "RDS: Managed relational database service. Amazon RDS simplifies database setup, management, and scaling with automated backups and monitoring." > itgenius_folder/rds.txt
+
+echo "DynamoDB: Fully managed NoSQL database. Amazon DynamoDB provides fast and flexible data storage for applications requiring low-latency access." > itgenius_folder/dynamodb.txt
+
+echo "CloudTrail: Track AWS API activity. AWS CloudTrail enables governance, compliance, and operational and risk auditing of your AWS account." > itgenius_folder/cloudtrail.txt
+
+echo "CloudWatch: Monitor AWS resources. Amazon CloudWatch provides data and actionable insights to monitor applications, respond to system-wide changes, and optimize resource use." > itgenius_folder/cloudwatch.txt
+
+echo "KMS: Securely manage encryption keys. AWS KMS helps you create, control, and manage encryption keys for securing data across AWS services." > itgenius_folder/kms.txt
 
 # Create index.html with enhanced design and file view functionality
 cat << 'EOF' > index.html
